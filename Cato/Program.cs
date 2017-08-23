@@ -10,8 +10,7 @@ namespace Cato
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            WeatherApiClient.GetWeatherForcast();
         }
     }
 }
